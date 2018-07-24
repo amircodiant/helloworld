@@ -1,0 +1,24 @@
+{
+    "name": "amircodiant/helloworld",
+    "description": "this is for testing purpose only",
+    "keywords": ["helloworld", "composer", "package"],
+    "license": "0BSD",
+    "authors": [
+        {
+            "name": "amir ansari",
+            "email": "amir_ansari50@yahoo.in"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.3.3"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amircodiant\\HelloWorld\\": "src/"
+        }
+    }
+}
